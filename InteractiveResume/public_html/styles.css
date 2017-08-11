@@ -12,10 +12,10 @@ and open the template in the editor.
 */
 @font-face{
     font-family: sansations;
-    src: url(sansation_light.wolf);
+    src: url(./fonts/Sansation_Regular.ttf);
 }
 body {
-    margin:5px;
+    margin:0;
     padding:15px;
     font-family: sansations;
     
@@ -30,9 +30,9 @@ body {
   display: block;
   color: #5d7e95;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .topnav a:hover {
@@ -41,4 +41,13 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
     color: #ee3823;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    color: lightgray;
 }
