@@ -6,5 +6,30 @@ and open the template in the editor.
 /* 
     Created on : Aug 11, 2017, 9:06:45 AM
     Author     : jeffroth
-*/
 
+    Blue=#5d7e95;
+    Red=#ee3823;
+*/
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #5d7e95;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #ee3823;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #ee3823;
+}
