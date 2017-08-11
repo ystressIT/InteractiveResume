@@ -10,7 +10,16 @@ and open the template in the editor.
     Blue=#5d7e95;
     Red=#ee3823;
 */
-body {margin:0;}
+@font-face{
+    font-family: sansations;
+    src: url(sansation_light.wolf);
+}
+body {
+    margin:5px;
+    padding:15px;
+    font-family: sansations;
+    
+}
 
 .topnav {
   overflow: hidden;
